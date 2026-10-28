@@ -252,7 +252,7 @@ local function utf8_is_ok(str)
 		elseif c <= 224 then
 			local c2, c3 = string_byte(str, i + 1, i + 2)
 			i = i + 3
-			if not (c3 and c2 and band(c2, 160) == 160 and band(c3, 192) == 128) then
+			if not (c3 and c2 and band(c2, 224) == 160 and band(c3, 192) == 128) then
 				return false
 			end
 		elseif c <= 236 then
