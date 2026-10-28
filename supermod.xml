@@ -1,4 +1,4 @@
-<mod name="AnticrashRAID"
+<mod name="AnticrashRAID" image="tdlq.dds"
      description="Protects against crashes caused by broken network messages (lag, mods, malicious players)."
      author="BangL"
      version="0.1"
