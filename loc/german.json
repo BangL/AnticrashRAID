@@ -1,0 +1,18 @@
+{
+  "anticrash_title": "Anticrash",
+
+  "anticrash_cat_default": "Standard",
+  "anticrash_cat_sources": "Quellen (was passiert, wenn eine Nachricht eines Spielers fehlschlägt)",
+
+  "anticrash_default_action": "Standardaktion",
+  "anticrash_default_action_desc": "Was passiert, wenn eine Netzwerknachricht eines Spielers fehlschlägt: nur ein Log-Eintrag (still), eine Chatnachricht oder ein Kick (nur als Host, erst nach 3 Fehlern innerhalb von 60 Sekunden).",
+
+  "anticrash_action_default": "Standard",
+  "anticrash_action_unprotected": "ungeschützt",
+  "anticrash_action_quiet": "still",
+  "anticrash_action_chat": "Chat",
+  "anticrash_action_kick": "Kick",
+
+  "anticrash_crash_prevented": "Absturz verhindert ($SOURCE)",
+  "anticrash_crash_coming_from": ", verursacht von $NAME"
+}

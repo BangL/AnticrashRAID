@@ -1,0 +1,18 @@
+{
+  "anticrash_title": "Anticrash",
+
+  "anticrash_cat_default": "Default",
+  "anticrash_cat_sources": "Sources (what is done when a message of a peer fails)",
+
+  "anticrash_default_action": "Default action",
+  "anticrash_default_action_desc": "What happens when a network message of a peer fails: nothing but a log entry (quiet), a chat message, or a kick (host only, only after 3 failures within 60 seconds).",
+
+  "anticrash_action_default": "default",
+  "anticrash_action_unprotected": "unprotected",
+  "anticrash_action_quiet": "quiet",
+  "anticrash_action_chat": "chat",
+  "anticrash_action_kick": "kick",
+
+  "anticrash_crash_prevented": "Crash prevented ($SOURCE)",
+  "anticrash_crash_coming_from": ", coming from $NAME"
+}

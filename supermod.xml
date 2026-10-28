@@ -1,0 +1,33 @@
+<mod name="AnticrashRAID"
+     description="Protects against crashes caused by broken network messages (lag, mods, malicious players)."
+     author="BangL"
+     version="0.1"
+     min_sblt_version="2.1.0"
+     priority="500"
+     color="60 60 60">
+    <updates>
+        <update identifier="anticrashraid">
+            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/anticrashraid.json"/>
+        </update>
+    </updates>
+    <localization directory="loc">
+        <loc file="english.json"
+             language="english" />
+        <loc file="german.json"
+             language="german" />
+    </localization>
+    <hooks>
+        <pre hook_id="lib/entry"
+             script_path="AnticrashRAID.lua" />
+        <post hook_id="lib/managers/menu/menucomponentmanager"
+              script_path="lua/menucomponentmanager.lua" />
+        <post hook_id="lib/managers/weaponfactorymanager"
+              script_path="lua/weaponfactorymanager.lua" />
+        <post hook_id="lib/network/base/handlers/connectionnetworkhandler"
+              script_path="lua/connectionnetworkhandler.lua" />
+        <post hook_id="lib/network/handlers/unitnetworkhandler"
+              script_path="lua/unitnetworkhandler.lua" />
+        <post hook_id="lib/units/beings/player/huskplayermovement"
+              script_path="lua/huskplayermovement.lua" />
+    </hooks>
+</mod>
