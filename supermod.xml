@@ -1,7 +1,7 @@
 <mod name="AnticrashRAID" image="tdlq.dds"
      description="Protects against crashes caused by broken network messages (lag, mods, malicious players)."
      author="BangL"
-     version="0.1.1"
+     version="0.1.2"
      min_sblt_version="2.1.0"
      priority="500"
      color="60 60 60">

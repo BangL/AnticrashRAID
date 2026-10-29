@@ -93,6 +93,7 @@ Hooks:Add("MenuComponentManagerInitialize", "Anticrash_MenuComponentManagerIniti
 		name = "anticrash_options",
 		name_id = "anticrash_title",
 		inject_list = "blt_options",
+		icon = "menu_item_network",
 		class = AnticrashMenu,
 	})
 end)
