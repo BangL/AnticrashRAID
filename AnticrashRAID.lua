@@ -18,7 +18,7 @@ Anticrash._loaded = true
 local ac_pcall = (blt and blt.pcall) or pcall
 
 Anticrash.ModPath = ModPath
-Anticrash.settings_path = SavePath .. "AnticrashRAID.txt"
+Anticrash.settings_path = SavePath .. "AnticrashRAID.json"
 
 -- default/unprotected only make sense per source: 'default' = use the default action, 'unprotected' = no protection
 Anticrash.action_types = { "default", "unprotected", "quiet", "chat", "kick" }

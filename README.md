@@ -24,7 +24,7 @@ underbarrel handlers (they do not exist in RAID), no `is_server_ok` check (RAID 
 Per source: `default`, `unprotected` (no protection for it), `quiet` (log only), `chat`, `kick`.
 Defaults are mild: **chat** (at most one message per source and peer every 30 s), nothing is kicked
 unless chosen. A kick needs 3 failures of the same peer within 60 s and only works as host.
-The menu lists the manual sources and every source that failed once. Settings: `saves/AnticrashRAID.txt`.
+The menu lists the manual sources and every source that failed once. Settings: `saves/AnticrashRAID.json`.
 
 ## Updating the text fields
 
