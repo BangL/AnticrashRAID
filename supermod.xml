@@ -7,7 +7,7 @@
      color="60 60 60">
     <updates>
         <update identifier="anticrashraid">
-            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/anticrashraid.json"/>
+            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/anticrashraid.json" patchnotes="https://github.com/BangL/AnticrashRAID/blob/master/CHANGELOG.md"/>
         </update>
     </updates>
     <localization directory="loc">
